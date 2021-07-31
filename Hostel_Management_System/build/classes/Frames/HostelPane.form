@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="66" red="99" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="259" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="hostelIdTextField" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="stdPerRoomTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="messComboBox" alignment="0" pref="131" max="32767" attributes="0"/>
+                                      <Component id="noOfStoriesTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="noOfBathroomsTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="noOfRoomsTextField" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane2" min="-2" pref="265" max="-2" attributes="0"/>
+                                  <Component id="hostelNameTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="838" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="addButton" min="-2" pref="84" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="updateButton" min="-2" pref="84" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="clearButton" min="-2" pref="85" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="backButton" min="-2" pref="81" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="deleteButton" min="-2" pref="86" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="453" max="-2" attributes="0"/>
+                      <Component id="hostelLabel" min="-2" pref="250" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="429" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
+                          <Component id="hostelIdLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
+                          <Component id="hostelNameLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                          <Component id="noOfRoomsLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="noOfBathroomsLabel" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+                          <Component id="noOfStoriesLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="180" pref="180" max="-2" attributes="0"/>
+                          <Component id="messLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="190" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="130" pref="130" max="-2" attributes="0"/>
+                          <Component id="remarksLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="1550" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="hostelLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="hostelIdTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="hostelNameTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="noOfRoomsTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="noOfBathroomsTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="noOfStoriesTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="messComboBox" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="stdPerRoomTextField" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="161" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="1" min="-2" pref="681" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deleteButton" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="backButton" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="updateButton" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="addButton" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="clearButton" alignment="1" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="115" max="32767" attributes="0"/>
+                  <Component id="hostelIdLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                  <Component id="hostelNameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                  <Component id="noOfRoomsLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="51" pref="51" max="-2" attributes="0"/>
+                  <Component id="noOfBathroomsLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="51" pref="51" max="-2" attributes="0"/>
+                  <Component id="noOfStoriesLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="51" pref="51" max="-2" attributes="0"/>
+                  <Component id="messLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                  <Component id="remarksLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="236" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="hostelLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="60" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HOSTEL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostelIdLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HOSTEL ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostelNameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HOSTEL NAME"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="noOfRoomsLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NO. OF ROOMS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="noOfBathroomsLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NO. OF BATHROOMS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="noOfStoriesLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NO. OF STORIES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="messLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MESS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="remarksLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REMARKS"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="hostelTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="8" rowCount="4">
+                <Column editable="false" title="HOSTEL ID" type="java.lang.Object"/>
+                <Column editable="true" title="HOSTEL" type="java.lang.Object"/>
+                <Column editable="true" title="ROOMS" type="java.lang.Object"/>
+                <Column editable="true" title="BATHROOMS" type="java.lang.Object"/>
+                <Column editable="true" title="STORIES" type="java.lang.Object"/>
+                <Column editable="true" title="MESS" type="java.lang.Object"/>
+                <Column editable="true" title="STD PER ROOM" type="java.lang.Object"/>
+                <Column editable="true" title="REMARKS" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="15" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="20" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="5" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="hostelTableMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="remarksTextArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="hostelIdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostelNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="noOfRoomsTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="noOfBathroomsTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="noOfStoriesTextField">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="messComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="STD PER ROOM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="stdPerRoomTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/add_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="updateButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/update_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/clear_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/delete_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="backButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/back_1.png"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

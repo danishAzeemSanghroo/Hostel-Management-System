@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="99" green="0" red="99" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="570" pref="570" max="-2" attributes="0"/>
+                      <Component id="allotmentLabel" min="-2" pref="400" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="90" pref="90" max="-2" attributes="0"/>
+                              <Component id="facultyLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                              <Component id="deptLabel" min="-2" pref="110" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="progLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                              <Component id="batchLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="stdLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="90" pref="90" max="-2" attributes="0"/>
+                              <Component id="hostelLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="allotIdLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="roomNoLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                              <Component id="challanNoLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                              <Component id="challanDateLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                              <Component id="challanAmountLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+                              <Component id="leavingDateLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="reasonOfLeavingLabel" min="-2" pref="160" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="remarksLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="facultyComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="deptComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="progComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="batchComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="stdComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="hostelComboBox" min="-2" pref="420" max="-2" attributes="0"/>
+                                  <Component id="allotIdTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="roomNoTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="challanNoTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="challanDateChooser" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="challanAmountTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="leavingDateChooser" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="reasonOfLeavingTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="430" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="928" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="addButton" min="-2" pref="84" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="updateButton" min="-2" pref="84" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="clearButton" min="-2" pref="85" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="backButton" min="-2" pref="81" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="deleteButton" min="-2" pref="86" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="317" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="allotmentLabel" min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="facultyLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="deptLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="progLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="batchLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="stdLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="hostelLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="allotIdLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="roomNoLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanNoLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanDateLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanAmountLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="leavingDateLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="reasonOfLeavingLabel" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Component id="remarksLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="facultyComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="deptComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="progComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="batchComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="stdComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="hostelComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="allotIdTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="roomNoTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanNoTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanDateChooser" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="challanAmountTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="leavingDateChooser" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="reasonOfLeavingTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="130" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane2" min="-2" pref="690" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deleteButton" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="backButton" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="updateButton" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="addButton" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="clearButton" alignment="1" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="281" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="allotmentLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="60" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ALLOTMENT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="facultyLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FACULTY"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deptLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEPARTMENT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="progLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PROGRAM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="batchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BATCH"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stdLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STUDENT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostelLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HOSTEL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allotIdLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ALLOT ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="roomNoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ROOM NO."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="challanNoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHALLAN NO."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="challanDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHALLAN DATE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="challanAmountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHALLAN AMOUNT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="leavingDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LEAVING DATE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="reasonOfLeavingLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REASON OF LEAVING"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="remarksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REMARKS"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="remarksTextArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="allotmentTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="8" rowCount="4">
+                <Column editable="true" title="ALLOT ID" type="java.lang.Object"/>
+                <Column editable="true" title="ROOM NO" type="java.lang.Object"/>
+                <Column editable="true" title="CHALLAN NO" type="java.lang.Object"/>
+                <Column editable="true" title="CHALLAN DATE" type="java.lang.Object"/>
+                <Column editable="true" title="CHALLAN AMOUNT" type="java.lang.Object"/>
+                <Column editable="true" title="LEAVING DATE" type="java.lang.Object"/>
+                <Column editable="true" title="REASON OF LEAVING" type="java.lang.Object"/>
+                <Column editable="true" title="REMARKS" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="5" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="5" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="5" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="allotmentTableMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="facultyComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="facultyComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="deptComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deptComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="progComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="progComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="batchComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="batchComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="stdComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stdComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="hostelComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hostelComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="allotIdTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="roomNoTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="challanNoTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="challanAmountTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="reasonOfLeavingTextField">
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="challanDateChooser">
+      <Properties>
+        <Property name="dateFormatString" type="java.lang.String" value="dd-MMM-YYYY"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="leavingDateChooser">
+    </Component>
+    <Component class="javax.swing.JButton" name="updateButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/update_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/clear_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/delete_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="backButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/back_1.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/add_1.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
